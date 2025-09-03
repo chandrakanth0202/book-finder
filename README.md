@@ -1,10 +1,10 @@
 ## Book Finder
 
 A simple and professional web application that allows users to search for books using the Open Library API 
- # Link - https://openlibrary.org/developers/api?utm_source=chatgpt.com
+ Link - https://openlibrary.org/developers/api?utm_source=chatgpt.com
 
 Deployed Application: Book Finder on Netlify 
-# link - https://lucky-fairy-ef225a.netlify.app/?utm_source=chatgpt.com
+ link - https://lucky-fairy-ef225a.netlify.app/?utm_source=chatgpt.com
 
 ##  Features
 
