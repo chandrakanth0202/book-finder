@@ -1,12 +1,93 @@
-# React + Vite
+## Book Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and professional web application that allows users to search for books using the Open Library API 
+ # Link - https://openlibrary.org/developers/api?utm_source=chatgpt.com
 
-Currently, two official plugins are available:
+Deployed Application: Book Finder on Netlify 
+# link - https://lucky-fairy-ef225a.netlify.app/?utm_source=chatgpt.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+1. Search for books by title.
+2. Display book covers (when available).
+3. Show author names and first published year.
+4. Responsive design (works on desktop & mobile).
+5. Fast and lightweight (built with React + Vite).
+6. Graceful error handling (shows message if no results found).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+1.Frontend Framework: React (Vite)
+2.Styling: CSS Grid + Flexbox (custom CSS)
+3.API: Open Library Search API
+4.Deployment: Netlify
+
+## Project Structure
+
+book-finder/
+│── public/               # Static assets
+│── src/
+│   ├── App.jsx           # Main application logic
+│   ├── App.css           # Styling
+│   └── main.jsx          # Entry point
+│── package.json          # Dependencies & scripts
+│── README.md             # Project documentation
+
+## Installation & Setup
+
+Clone the repository :
+
+git clone https://github.com/your-username/book-finder.git
+cd book-finder
+
+
+# Install dependencies
+
+npm install
+
+
+# Run development server
+
+npm run dev
+
+
+# Open your browser at:
+
+http://localhost:5173
+
+## Deployment
+
+This project is deployed on Netlify:
+👉 https://lucky-fairy-ef225a.netlify.app/
+
+# To deploy your own:
+
+1.Push the code to GitHub.
+2.Connect your repo to Netlify.
+3.It will auto-deploy on every git push.
+
+## Example Usage
+
+1.Enter a book title like harry potter.
+2.Results will show book covers, authors, and first published year.
+3.If no results are found → a friendly message appears.
+
+## API Reference
+
+Open Library Search API:
+
+https://openlibrary.org/search.json?title={bookTitle}
+
+
+{bookTitle} → replace with user input.
+
+Returns book details including title, author, cover ID, and first published year.
+
+## Future Improvements
+
+1.Add a loading spinner when fetching results.
+2.Show publisher and edition count.
+3.Add clear search button.
+4.Enhance accessibility (labels, ARIA roles).
+
+ 
