@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #1a3c6e;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Search Bar */
+.search-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 12px 15px;
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #1a73e8;
+}
+
+button {
+  padding: 12px 20px;
+  background: #1a73e8;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #155ab6;
+}
+
+/* Books Grid */
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Book Card */
+.book-card {
+  background: white;
+  border: 1px solid #e1e5eb;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+.book-card h3 {
+  font-size: 1rem;
+  color: #1a3c6e;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.book-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 2px 0;
+}
